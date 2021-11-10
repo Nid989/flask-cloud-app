@@ -12,11 +12,11 @@ def service():
 
     service_req = req.get("http://13.233.19.226:8080/get-service-area")
     city_list = service_req.json()['cities_arr']
-    city_string = '\n'.join(city_list)
+    city_string = ''.join(city_list)
     price_req = req.get("http://13.233.19.226:8081/get-prices")
     price_list = price_req.json()['price_arr']
-    price_string = '\n'.join(price_list)
-    return render_template("main.html", service=f"{city_string}", price=f"{price_string}")
+    price_string = ''.join(price_list)
+    return render_template("main.html", service=f"{city_string}", prices=f"{price_string}")
 #     return render_template("main.html", service=f"{city_string}")
 
 

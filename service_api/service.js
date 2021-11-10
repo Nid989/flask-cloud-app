@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 var 
 	g_payload = {
-		cities_arr: ["Andaman 4 Nights / 5 Days", "Srinagar 4 Nights / 5 Days", "Kerala 4 Nights / 5 Days", "Manali 2 Nights / 3 Days", "Mauritius 4 Nights / 5 Days", "Gantok 2 Nights / 3 Days"]
+		cities_arr: ["Andaman 4 Nights / 5 Days", "\nSrinagar 4 Nights / 5 Days", "\nKerala 4 Nights / 5 Days", "\nManali 2 Nights / 3 Days", "\nMauritius 4 Nights / 5 Days", "\nGantok 2 Nights / 3 Days"]
 	};
 
 var shared_file_path_str = "/my_amazing_shared_folder/service_data.json";
