@@ -2,6 +2,10 @@ body {
     /* background-image: url("../images/bg.jpeg"); */
 }
 
+.bg {
+    background-color: blue;
+}
+
 .image {
     width: 500px;
     height: 500px;
@@ -18,4 +22,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.textarea {}
+.container {
+    border: 10px solid red;
+}
