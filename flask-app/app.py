@@ -16,7 +16,7 @@ def service():
     price_req = req.get("http://13.233.19.226:8081/get-prices")
     price_list = price_req.json()['price_arr']
     price_string = '\n'.join(price_list)
-    return render_template("main.html", service=f"{city_string}", price = f"{price_string}")
+    return render_template("main.html", service=f"{city_string}", price=f"{price_string}")
 #     return render_template("main.html", service=f"{city_string}")
 
 
