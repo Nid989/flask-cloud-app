@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 var 
 	g_payload = {
-		price_arr: ["5999", "8999", "2999", "19999", "7999", "3499"]
+		price_arr: ["134.50", "455.99"]
 	};
 
 var shared_file_path_str = "/my_amazing_shared_folder/price_data.json";
